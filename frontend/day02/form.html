@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册表单</title>
+</head>
+<body>
+    
+    <form action="#" method="post">
+        <h2>用户注册</h2>
+
+        <label for="username">用户名: </label>
+        <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="请输入用户名"
+            required
+        >
+        <br><br>
+
+        <label for="email">邮箱: </label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@mail.com"
+            required
+        >
+        <br><br>
+
+        <label for="password">密码: </label>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="至少6位"
+            required
+        >
+        <br><br>
+
+        <label for="age">年龄: </label>
+        <input
+            type="number"
+            id="age"
+            name="age"
+            min="1"
+            max="120"
+            required
+        >
+        <br><br>
+
+        <label>性别: </label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">男</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">女</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">保密</label>
+        <br><br>
+
+        <label>兴趣爱好: </label>
+        <input type="checkbox" id="coding" name="hobby" value="coding">
+        <label for="coding">编程</label>
+
+        <input type="checkbox" id="music" name="hobby" value="music">
+        <label for="music">音乐</label>
+
+        <input type="checkbox" id="sports" name="hobby" value="sports">
+        <label for="sports">运动</label>
+
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+        <label for="reading">阅读</label>
+        <br><br>
+
+        <label for="city">城市: </label>
+        
+</html>
